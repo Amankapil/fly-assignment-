@@ -2,6 +2,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0px !important;
+}
+
+input[type="checkbox"] {
+  background: #ff3147 0% 0% no-repeat padding-box !important;
+}
+
 .flex {
   display: flex;
 }
@@ -125,6 +135,7 @@ body {
 .list-group-item {
   cursor: pointer;
   border: none !important;
+  padding: 20px;
 
   background: #f6f6f6 0% 0% no-repeat padding-box;
 }

@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#servicesCarousel').carousel({
-    interval: 1000
+    interval: 3000
   })
 
   // $('.carousel-item img').hover(

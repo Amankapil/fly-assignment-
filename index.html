@@ -88,7 +88,9 @@
                   required
                 />
               </span>
-              <span class="form-group">
+              <span class="form-group flex" style="gap:27px; margin-top: 20px;">
+
+                <span>
                 <label for="firstName">First name</label>
                 <input
                   type="text"
@@ -99,7 +101,19 @@
                   required
                 />
               </span>
-              <span class="form-group">
+              <span>
+
+                <label for="lastName">Last name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastName"
+                  id="lastName"
+                  placeholder="Doe"
+                  required
+                /></span>
+              </span>
+              <!-- <span class="form-group">
                 <label for="lastName">Last name</label>
                 <input
                   type="text"
@@ -109,7 +123,7 @@
                   placeholder="Doe"
                   required
                 />
-              </span>
+              </span> -->
               <span class="form-check">
                 <input
                   type="checkbox"
@@ -119,35 +133,22 @@
                   required
                 />
                 <label class="form-check-label" for="termsCheck"
-                  >I agree to terms and conditions</label
+                  >I agree to Fyle's terms and conditions, and provide consent to send me communication.</label
                 >
               </span>
 
               <button
               type="submit"
-                class="btn btn-primary"
+                class="btn btn-mary"
+               
+                style="background: #FF3366 0% 0% no-repeat padding-box; color: #FFFFFF; margin-top: 20px; width: 100%; height: 50px;  "
                 id="submitContactForm"
               >
-                Submit
+               Contact Us
               </button>
             </form>
           </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <!-- <button
-            type="submit"
-              class="btn btn-primary"
-              id="submitContactForm"
-            >
-              Submit -->
-            </button>
-          </div>
+         
         </div>
       </div>
     </div>
@@ -155,13 +156,36 @@
     <!-- Previous Section -->
 
     <div class="continer-do mt-5 bg-light">
-      <h2 class="text-danger">WHAT WE DO</h2>
-      <h3>SERVICES PROVIDE FOR YOU</h3>
-      <p class="text-muted">
+      <!-- <h2 class="text-danger"></h2>
+      <h3></h3> -->
+
+      <h2 style="text-align: left;
+      letter-spacing: 0px;
+      font-size:24px;
+
+      color: #FF3147;
+      opacity: 1;">WHAT WE DO</h2>
+
+      <div class="flex" style="gap:50px;">
+  
+     
+      <p style="text-align: left;
+      letter-spacing: 0px;
+      color: #000000;
+      text-transform: uppercase;
+      width: 40%;
+      font-size:45px;
+      /* margin: auto; */
+    font-weight:700;
+      opacity: 1;">
+      SERVICES PROVIDE FOR YOU
+      </p>
+      <p class="text-muted" style="width: 40%;">
         Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
         Pellentesque vitae ante ac elit fringilla ac at purus, Morbi sed lacus
         nec risus finibus feugiat et fermentum.
       </p>
+    </div>
       <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li
@@ -409,7 +433,7 @@
               />
 
               <h3
-              style="font-size:20px; margin:10px 0;">Clarified Vision</h3>
+              style="font-size:20px; margin:10px 0;  font-weight: 600;">Clarified Vision</h3>
         <p  style="font-size:16px;">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
         </p>
@@ -428,7 +452,7 @@
 
               <h3 class=""
               style="
-              font-size:20px; margin:10px 0;">High Performance</h3>
+              font-size:20px; margin:10px 0; font-weight: 600;">High Performance</h3>
 
 
         <p  style=" font-size:16px;">
@@ -450,7 +474,7 @@
 
               <h3 class=""
               style="
-              font-size:20px; margin:10px 0;">Maintain Security</h3>
+              font-size:20px; margin:10px 0;  font-weight: 600;">Maintain Security</h3>
 
 
         <p  style=" font-size:16px;">
@@ -471,7 +495,7 @@
 
               <h3 class=""
               style="
-              font-size:20px; margin:10px 0;">Better Strategy & Quality</h3>
+              font-size:20px; margin:10px 0;  font-weight: 600;">Better Strategy & Quality</h3>
 
 
         <p  style=" font-size:16px;">
@@ -679,10 +703,12 @@
     opacity: 1;">
 PEOPLE SAY'S ABOUT US !
     </p>
+<div class="flex justify-center items-center">
 
-    <p class="lead" style="text-align: center; width: 100%;">
-      Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
-    </p>
+  <p class="lead" style="text-align: left; width: 50%;">
+    Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+  </p>
+</div>
     <p class="font-weight-bold text-danger">JANNAT TUMPA <span style="color: #808080;font-weight: 100;"> 
 
     - COO, AMERIMAR ENTERPRISES, INC. </span> </p>
